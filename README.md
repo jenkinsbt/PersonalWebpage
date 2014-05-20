@@ -1,4 +1,4 @@
-#Personal Webpage and Blog of Brandon Taylor Jenkins
+##Personal Webpage and Blog of Brandon Taylor Jenkins
 #### web designer, developer, music lover. A window into the life of a nerd.
 ===============
 
