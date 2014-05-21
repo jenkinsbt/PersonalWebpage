@@ -13,6 +13,9 @@ div#navContain {
 
 }
 
+.container {
+	margin-left: 5%;
+}
 div.row {
 	margin-left: 0px;
 }
@@ -21,17 +24,19 @@ div.row {
 
 }
 
-.span9 {
-	
+/*homepage grid*/
+.span12 {
+	float: left;
 }
 .span8 {
 	float:left;
 	display: inline; 
+	width: 90%;
 }
 
-.span4 {
-	float:left;
-	display: inline;
+.span4{
+	float:right;
+	display: block;
 	width: 90%;
 	height: 200px;
 	background: green;
@@ -41,6 +46,7 @@ div.row {
 
 } 
 
+/*navbar title*/
  a.navbar-brand{
 	color:#C44741;
 	font-size:24px;
@@ -63,8 +69,18 @@ div.row {
 
 	}
 	
+	.span12 {
+		
+	}
+	
+	.span8 {
+		width:70%;
+		float: left;
+	}
 	.span4 {
-		width: auto;
+		width: 30%;
+		float:right;
+		display: inline;
 		height: 600px;
 	}
 	a.navbar-brand {
