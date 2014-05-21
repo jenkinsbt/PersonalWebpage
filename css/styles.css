@@ -6,23 +6,41 @@
 
 /*Nav, container, and footer centering for desktop*/
 .navbar {
-	width:80%;
-	margin:0% auto;
+
+}
+
+div#navContain {
+
+}
+
+div.row {
+	margin-left: 0px;
 }
 
 .navbar-nav {
-	margin-left: 5%;
+
+}
+
+.span9 {
+	
+}
+.span8 {
+	float:left;
+	display: inline; 
+}
+
+.span4 {
+	float:left;
+	display: inline;
+	width: 90%;
+	height: 200px;
+	background: green;
 }
 
 #pageContain {
-	width: 80%;
-	margin: 0% auto;
-}
 
-.wrap{
-	width: 84%;
-	margin:0 auto;
-}
+} 
+
  a.navbar-brand{
 	color:#C44741;
 	font-size:24px;
@@ -33,38 +51,23 @@
 
 
 /***************/
-/*Tablet Styles*/
-/***************/
-/*@media (max-width: 800 {
-	.navbar { 
-		width: 100%;
-		margin: 0% auto;
-	}
-	
-	#pageContain {
-		width:90%;
-		margin:0 auto;
-	}
-	
-	a.navbar-brand {
-		margin-left:2.5%;
-	}
-}*/
-
-/***************/
 /*Mobile Styles*/
 /***************/
-@media  (max-width: 480px) {
+
+@media  (min-width: 768px) {
 	.navbar {
-		width:100%;
-		margin:0% auto;
+
 	}
 	
 	#pageContain {
-		width:90%;
-		margin:0 auto;
+
+	}
+	
+	.span4 {
+		width: auto;
+		height: 600px;
 	}
 	a.navbar-brand {
-		margin-left :2.5%;
+
 	}
 }
