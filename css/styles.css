@@ -4,7 +4,7 @@
 /*General Styling - Applies to every size*/
 /****************************************/
 
-/*Nav, container, and footer centering for desktop*/
+/*Nav, container, and footer centering for mobile*/
 .navbar {
 
 }
@@ -24,6 +24,10 @@ div.row {
 
 }
 
+p.lead {
+padding: 5% 10% 10% 0%;
+}
+
 /*homepage grid*/
 .span12 {
 	float: left;
@@ -35,7 +39,7 @@ div.row {
 }
 
 .span4{
-	float:right;
+	float:left;
 	display: block;
 	width: 90%;
 	height: 200px;
@@ -79,7 +83,7 @@ div.row {
 	}
 	.span4 {
 		width: 30%;
-		float:right;
+		float:left;
 		display: inline;
 		height: 600px;
 	}
